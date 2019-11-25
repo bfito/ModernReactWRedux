@@ -8,7 +8,7 @@ window.navigator.geolocation.getCurrentPosition(
   err => console.log(err)
 );
 
-  return <div>Hi there!</div>;
+  return <div>Latitude: </div>;
 };
 
 ReactDOM.render(<App />, document.querySelector('#root'));
